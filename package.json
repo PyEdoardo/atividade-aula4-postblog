@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev" : "node --loader ts-node/esm ./atividade.ts",
+    "dev": "node --loader ts-node/esm ./atividade.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PyEdoardo/atividade-aula4-postblog.git"
@@ -18,9 +19,14 @@
   },
   "homepage": "https://github.com/PyEdoardo/atividade-aula4-postblog#readme",
   "description": "",
+  "type": "module",
   "devDependencies": {
     "@types/node": "^24.3.0",
+    "node-fetch": "^2.7.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.6.13"
   }
 }
