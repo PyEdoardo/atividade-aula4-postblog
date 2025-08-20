@@ -1,0 +1,26 @@
+{
+  "name": "atividade-aula4-postblog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "node --loader ts-node/esm ./atividade.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PyEdoardo/atividade-aula4-postblog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PyEdoardo/atividade-aula4-postblog/issues"
+  },
+  "homepage": "https://github.com/PyEdoardo/atividade-aula4-postblog#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
