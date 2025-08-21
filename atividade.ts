@@ -15,7 +15,7 @@ interface Comment {
     body: string
 };
 
-async function getPostComComentarios(postId: number) {
+async function getPostComComentarios(postId: number): Promise<void> {
     try {
             console.log("Buscando post...");
             const postResponse = await fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`);
